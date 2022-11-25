@@ -22,7 +22,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var textField: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("Ganpat")
+        print("GanpatJangir")
         textField.delegate = self
         tableView.delegate = self
         tableView.dataSource = self
